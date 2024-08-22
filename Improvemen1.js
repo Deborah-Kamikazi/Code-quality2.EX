@@ -1,4 +1,4 @@
-function calculateAverage(numbers) {
-    return numbers.reduce((accu,accur)=> accu+accur,0)/numbers.length
-   }
-   console.log(calculateAverage([1,2,3,4,5,6,7]))
+ calculateAverage= (numbers) =>{return numbers.reduce((a,b)=> a+b,0)/numbers.length}
+    
+   
+  
